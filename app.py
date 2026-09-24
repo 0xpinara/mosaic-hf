@@ -10,6 +10,7 @@ import time
 
 import gradio as gr
 import numpy as np
+import spaces
 from PIL import Image, ImageOps
 
 from mosaic import SIZE, TILE_SETS, find_example, make_mosaic, mse, ssim
@@ -43,6 +44,9 @@ def load_image(path):
     return np.asarray(im.convert("RGB"))
 
 
+# the Space runs on ZeroGPU, which only starts apps that have a @spaces.GPU function;
+# the mosaic itself is CPU-only (no effect when running locally)
+@spaces.GPU(duration=10)
 def run(path, grid, tile_set, k):
     if path is None:
         return None, None, None, START
