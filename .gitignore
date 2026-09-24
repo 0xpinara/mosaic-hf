@@ -1,0 +1,10 @@
+__pycache__/
+.gradio/
+flagged/
+venv/
+.venv/
+.DS_Store
+*.docx
+report/*.aux
+report/*.log
+report/*.out

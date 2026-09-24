@@ -1,0 +1,21 @@
+tile_set,grid,mse,ssim
+LEGO bricks,16x16,1265.1,0.405
+LEGO bricks,32x32,930.0,0.319
+LEGO bricks,64x64,691.6,0.256
+LEGO bricks,128x128,444.1,0.304
+Flat colors,16x16,989.6,0.618
+Flat colors,32x32,660.6,0.625
+Flat colors,64x64,442.6,0.637
+Flat colors,128x128,287.4,0.678
+Dots,16x16,3561.0,0.406
+Dots,32x32,3299.6,0.303
+Dots,64x64,3098.2,0.189
+Dots,128x128,2721.7,0.155
+ASCII,16x16,7870.9,0.198
+ASCII,32x32,7625.8,0.183
+ASCII,64x64,7326.1,0.159
+ASCII,128x128,6995.6,0.136
+Photo tiles,16x16,3149.6,0.284
+Photo tiles,32x32,2577.9,0.236
+Photo tiles,64x64,2201.0,0.185
+Photo tiles,128x128,1763.1,0.162
