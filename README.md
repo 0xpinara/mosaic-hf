@@ -15,7 +15,6 @@ pinned: false
 A Gradio app that rebuilds a picture out of small tiles. You upload an image, pick a grid size, a tile set and the number of colors, and it shows the resized original, the segmented image and the mosaic, together with the MSE, the SSIM and how long it took.
 
 **Live demo:** https://huggingface.co/spaces/piax0x/mosaic-hf  
-**Report:** `report/Lab1_Report_Pinar_Aksoy.pdf`
 
 ## How it works
 
